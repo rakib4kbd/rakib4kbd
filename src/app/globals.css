@@ -1,26 +1,155 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-bg-primary: #080810;
+  --color-bg-card: #0f1020;
+  --color-bg-card-hover: #161830;
+  --color-border: #1e2040;
+  --color-text-primary: #f0f4ff;
+  --color-text-muted: #8892b0;
+  --color-accent-cyan: #00d4ff;
+  --color-accent-purple: #a855f7;
+  --color-accent-amber: #f59e0b;
+  --color-accent-green: #10b981;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #00d4ff 0%, #a855f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-amber {
+  background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-line {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #00d4ff, #a855f7);
+  border-radius: 2px;
+}
+
+.card-dark {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card-dark:hover {
+  border-color: rgba(0, 212, 255, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 212, 255, 0.08);
+}
+
+.hero-gradient {
+  background:
+    radial-gradient(
+      ellipse at 70% 50%,
+      rgba(168, 85, 247, 0.12) 0%,
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse at 20% 80%,
+      rgba(0, 212, 255, 0.08) 0%,
+      transparent 50%
+    ),
+    var(--color-bg-primary);
+}
+
+.navbar-dark {
+  background: rgba(8, 8, 16, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.tag-pill {
+  background: rgba(0, 212, 255, 0.08);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  color: #00d4ff;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.stat-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card:hover {
+  background: var(--color-bg-card-hover);
+}
+
+.stat-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #00d4ff, #a855f7);
+}
+
+/* Hover utilities for server components */
+.hover-cyan:hover {
+  color: var(--color-accent-cyan) !important;
+}
+.hover-cyan-border:hover {
+  border-color: rgba(0, 212, 255, 0.4) !important;
+}
+.hover-white:hover {
+  color: var(--color-text-primary) !important;
+}
+.hover-bg-subtle:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+.hover-bg-cyan:hover {
+  background: rgba(0, 212, 255, 0.05) !important;
+}
+.link-hover {
+  transition: color 0.2s ease;
+}
+.link-hover:hover {
+  color: var(--color-accent-cyan);
+}
+.border-hover:hover {
+  border-color: rgba(0, 212, 255, 0.4);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 212, 255, 0.3);
 }

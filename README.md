@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Rakib%20Khan&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+</p>
 
-## Getting Started
+<h3 align="center">Cloud & DevOps Engineer | Site Reliability Engineer | Full Stack MERN</h3>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+DevOps/SRE engineer focused on scaling systems, reducing failures, and cutting cloud costs.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 7+ years Linux, 5+ years AWS-heavy cloud
+- Built HA systems with ~5s failover
+- Scaled infrastructure handling 50,000+ emails/day across 21+ nodes
+- Migrated 20+ applications to AWS and managed 500+ domains
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔧 Current Focus
 
-## Learn More
+- Building and scaling Full Stack MERN applications
+- Exploring advanced Kubernetes scaling patterns
+- Optimizing AWS cost for production workloads
+- Improving CI/CD reliability and deployment safety
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,kubernetes,docker,cloudflare,workers,terraform,ansible,linux,bash,python,django,elasticsearch,fastapi,githubactions,github,jenkins,grafana,prometheus,mongodb,mysql,netlify,postgres,express,react,nextjs,nodejs,git,nginx," />
+</p>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💼 Experience Highlights
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**DevOps Engineer — PetPortraitAI (US, Remote)**
+
+- Built autoscaling AI workload infra across GPU vendors
+- Deployed HA Ray clusters for distributed computing
+- Implemented full observability stack (Prometheus + Grafana + ELK + Graylog)
+
+**DevOps Engineer — Mojo Creator Marketing Agency (US, Remote)**
+
+- Re-architected scalable email infra (50K+ emails/day)
+- Achieved ~5s failover using HAProxy
+- Automated recovery (~2 hours per node)
+
+**Freelance (Top Rated Plus) — Upwork**
+
+- Migrated 20+ apps to AWS
+- Built CI/CD pipelines (60–80% faster deployments)
+- Managed infra across 500+ domains
+- Developed and deployed MERN-based applications
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rakib4kbd&show_icons=true&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakib4kbd&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 🔗 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rakib4kbd/">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+  <a href="mailto:rakib4kbd@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" />
+  </a>
+</p>
+
+---
+
+## ⚡ Positioning
+
+You bring me in when:
+
+- Your application breaks in production
+- Your infrastructure is fragile
+- Your AWS bill is too high
+- Your deployments are risky
+- You need production-grade reliability
+
+---
