@@ -74,11 +74,11 @@ DevOps/SRE engineer focused on scaling systems, reducing failures, and cutting c
   <a href="https://www.linkedin.com/in/rakib4kbd/">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
+  <a href="https://www.upwork.com/freelancers/rakib4kbd">
+    <img src="https://imgur.com/TLpZ1jf.png" width=48 height=48 style="background-color: black; border: 0px; border-radius: 12px;" />
+  </a>
   <a href="mailto:rakib4kbd@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
-  </a>
-  <a href="https://www.upwork.com/freelancers/rakib4kbd">
-    <img src="https://imgur.com/TLpZ1jf.png" width=24 height=24 />
   </a>
 </p>
 
