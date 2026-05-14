@@ -78,7 +78,7 @@ DevOps/SRE engineer focused on scaling systems, reducing failures, and cutting c
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
   <a href="https://www.upwork.com/freelancers/rakib4kbd">
-    <img src="https://imgur.com/TLpZ1jf.png" />
+    <img src="https://imgur.com/TLpZ1jf.png" width=24 height=24 />
   </a>
 </p>
 
