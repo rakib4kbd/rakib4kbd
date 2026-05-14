@@ -56,18 +56,6 @@ DevOps/SRE engineer focused on scaling systems, reducing failures, and cutting c
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rakib4kbd&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakib4kbd&layout=compact&theme=tokyonight" />
-</p>
-
----
-
 ## 🔗 Connect With Me
 
 <p align="center">
